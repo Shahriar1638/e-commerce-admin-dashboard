@@ -84,12 +84,12 @@ export default function DashboardPage() {
   };
 
   const menuItems = [
-    { label: 'Products', href: '/products', icon: Package, permission: 'product:watch' },
-    { label: 'Categories', href: '/categories', icon: Tag, permission: 'category:watch' },
-    { label: 'Brands', href: '/brands', icon: Building2, permission: 'brand:watch' },
-    { label: 'Users', href: '/users', icon: Users, permission: 'user:watch' },
-    { label: 'Roles', href: '/roles', icon: Shield, permission: 'role:watch' },
-    { label: 'Settings', href: '/settings', icon: Settings, permission: 'permission:watch' },
+    { label: 'Products', href: '/dashboard/products', icon: Package, permission: 'product:watch' },
+    { label: 'Categories', href: '/dashboard/categories', icon: Tag, permission: 'category:watch' },
+    { label: 'Brands', href: '/dashboard/brands', icon: Building2, permission: 'brand:watch' },
+    { label: 'Users', href: '/dashboard/users', icon: Users, permission: 'user:watch' },
+    { label: 'Roles', href: '/dashboard/roles', icon: Shield, permission: 'role:watch' },
+    { label: 'Permissions', href: '/dashboard/permissions', icon: Settings, permission: 'permission:watch' },
   ];
 
   const visibleMenuItems = menuItems.filter((item) =>
